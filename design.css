@@ -1,0 +1,21 @@
+
+body {
+  background-color: azure;
+}
+
+.result-block {
+  margin: 0px;
+}
+
+h3{
+  margin: 0px;
+}
+
+h4{
+  margin: 0px;
+}
+
+.card-link:link, .card-link:visited, .card-link:hover, .card-link:active {
+  text-decoration: none;
+  color: #000000;
+}

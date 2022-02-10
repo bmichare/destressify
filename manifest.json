@@ -1,10 +1,25 @@
 {
   "name": "Destressify",
-  "description": "Quickly access stretches and workouts during your breaks from Codesmith!",
+  "description": "cures depression",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/trevor.png",
+      "32": "/images/trevor.png",
+      "48": "/images/trevor.png",
+      "128": "/images/trevor.png"
+    }
+  },
+  "icons": {
+    "16": "/images/trevor.png",
+    "32": "/images/trevor.png",
+    "48": "/images/trevor.png",
+    "128": "/images/trevor.png"
+  }
 }
