@@ -9,15 +9,18 @@
       <center>
       <h1>Ready to Destress?</h1>
       </center>   
-      <h3>Would you like to stretch, workout, or meditate?</h3>
       <img src="/images/trevor.png" id="trevorimg">
+      <h3>Would you like to stretch, workout, or meditate?</h3>
       <button id="stretchButton">Stretch</button>
       <button id="workoutButton">Workout</button>
       <button id="meditateButton">Meditate</button>
+      <form id="setTimer">
+        <label for="time">Set Timer For:</label>
+        <input type="range" id="time" name="timed"
+          min="0" max ="300" oninput="this.nextElementSibling.value = this.value">
+      </form>
     </div>
     <div class="second-screen">
-      <div>Try these videos!
-      </div>
       <div class="display-results">
         <!-- <div class="result-block">
           <img src="" alt="Video Thumbnail">

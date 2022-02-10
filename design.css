@@ -1,21 +1,39 @@
 
 body {
-  background-color: azure;
+  /* background-color: green; */
+  border-radius: 30px;
+  background-image: url("https://images.unsplash.com/photo-1514810771018-276192729582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FsbXxlbnwwfHwwfHw%3D&w=1000&q=80");
 }
 
-.result-block {
-  margin: 0px;
-}
-
-h3{
-  margin: 0px;
-}
-
-h4{
-  margin: 0px;
+button {
+  border-radius: 30px;
+  font-weight: bolder;
+  background-color: rgb(212, 217, 218);
 }
 
 .card-link:link, .card-link:visited, .card-link:hover, .card-link:active {
   text-decoration: none;
   color: #000000;
 }
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+#tryText {
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  margin-top: 10px;
+}
+
+#trevorimg {
+  margin: 0px
+}
+

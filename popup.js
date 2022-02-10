@@ -7,6 +7,7 @@ let displayResults = document.querySelector('.display-results');
 
 stretchButton.addEventListener("click", () => {
   firstScreen.style.display = 'none'
+  new TryText
   for(const vid of stretchingArray){
      new Video(displayResults, vid)
   }
@@ -14,6 +15,7 @@ stretchButton.addEventListener("click", () => {
 
 meditateButton.addEventListener('click',() => {
   firstScreen.style.display = 'none'
+  new TryText
   for(const vid of meditationArray) {
     new Video(displayResults, vid)
   }
@@ -21,6 +23,7 @@ meditateButton.addEventListener('click',() => {
 
 workoutButton.addEventListener("click", async () => {
   firstScreen.style.display = 'none'
+  new TryText
   for(const vid of workoutArray) {
     new Video(displayResults, vid)
   }

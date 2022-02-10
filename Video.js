@@ -1,17 +1,15 @@
 class Video {
     constructor(parent, resultObject){
         const {link, thumbnail, title, creator, duration} = resultObject;
-
-        
         
         let newVid = document.createElement('div') 
         newVid.setAttribute('class', 'result-block')
         
+
         let anchorTag = document.createElement('a')
         anchorTag.setAttribute('href', link);
         anchorTag.setAttribute('class', 'card-link');
         anchorTag.setAttribute('target', '_blank');
-        
         
         let img = document.createElement('img')
         img.setAttribute('src', thumbnail)
@@ -29,9 +27,19 @@ class Video {
         durationTag.innerText = `Time: ${duration}`
         anchorTag.appendChild(durationTag)
         
-        
+
         newVid.appendChild(anchorTag);
         parent.appendChild(newVid);
     }
     
 }
+
+class TryText {
+    constructor() {
+        let tryText = document.createElement('div')
+         tryText.setAttribute('id', 'tryText')
+        tryText.innerText = 'Try these videos!'
+        displayResults.appendChild(tryText)
+    }
+}
+
