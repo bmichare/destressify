@@ -3,10 +3,16 @@ let stretchButton = document.getElementById("stretchButton");
 let workoutButton = document.getElementById("workoutButton");
 let meditateButton = document.getElementById("meditateButton");
 let firstScreen = document.querySelector(".first-screen");
+let secondScreen = document.querySelector(".second-screen");
 let displayResults = document.querySelector('.display-results');
 
 stretchButton.addEventListener("click", () => {
-  firstScreen.style.display = 'none'
+  firstScreen.style.visibility = 'collapse'
+  firstScreen.style.opacity = '0'
+  firstScreen.remove()
+  secondScreen.style.visibility = 'visible'
+  secondScreen.style.opacity = '1'
+  
   new TryText
   for(const vid of stretchingArray){
      new Video(displayResults, vid)
@@ -14,7 +20,11 @@ stretchButton.addEventListener("click", () => {
 })
 
 meditateButton.addEventListener('click',() => {
-  firstScreen.style.display = 'none'
+  firstScreen.style.visibility = 'collapse'
+  firstScreen.style.opacity = '0'
+  firstScreen.remove()
+  secondScreen.style.visibility = 'visible'
+  secondScreen.style.opacity = '1'
   new TryText
   for(const vid of meditationArray) {
     new Video(displayResults, vid)
@@ -22,7 +32,11 @@ meditateButton.addEventListener('click',() => {
 })
 
 workoutButton.addEventListener("click", async () => {
-  firstScreen.style.display = 'none'
+  firstScreen.style.visibility = 'collapse'
+  firstScreen.style.opacity = '0'
+  firstScreen.remove()
+  secondScreen.style.visibility = 'visible'
+  secondScreen.style.opacity = '1'
   new TryText
   for(const vid of workoutArray) {
     new Video(displayResults, vid)

@@ -3,6 +3,7 @@ body {
   /* background-color: green; */
   border-radius: 30px;
   background-image: url("https://images.unsplash.com/photo-1514810771018-276192729582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FsbXxlbnwwfHwwfHw%3D&w=1000&q=80");
+  /* transition-property: opacity, left; */
 }
 
 button {
@@ -37,3 +38,27 @@ img {
   margin: 0px
 }
 
+.first-screen{
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+  transition-duration: .5s;
+}
+
+.second-screen{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  transition-delay: 1s;
+}
+
+
+div > ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+div:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
