@@ -1,0 +1,10 @@
+{
+  "name": "Destressify",
+  "description": "Quickly access stretches and workouts during your breaks from Codesmith!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
