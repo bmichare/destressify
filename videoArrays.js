@@ -3,7 +3,7 @@ const meditationArray = [
   link: 'https://www.youtube.com/watch?v=inpok4MKVLM',
   thumbnail: 'https://i.ytimg.com/vi/inpok4MKVLM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAPL5RIrFKPt7kBFsXGNkmnmVW-A',
   title: '5-Minute Meditation You Can Do Anywhere',
-  creator: 'Goodfuk',
+  creator: 'Goodful',
   duration: '05:16'
 },
 {

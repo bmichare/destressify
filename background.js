@@ -8,7 +8,17 @@ chrome.runtime.onInstalled.addListener(() => {
   console.log('Default background color set to %cgreen', `color: ${color}`);
 });
 
-chrome.runtime.onStartup(alert('test'))
+// chrome.runtime.onStartup(alert('test'))
+
+// chrome.app.runtime.onLaunched.addListener(function() {
+//   chrome.app.window.create('index.html', {
+//     id: 'main',
+//     bounds: { width: 620, height: 500 }
+//   });
+// });
+// chrome.alarms.onAlarm.addListener(function( alarm ) {
+//   alert('works');
+// });
 
 
 // chrome.runtime.onInstalled.addListener(() => {

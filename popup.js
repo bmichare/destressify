@@ -29,6 +29,22 @@ workoutButton.addEventListener("click", async () => {
   }
 })
 
+// const alarm = document.getElementById('toggleAlarm')
+
+// alarm.addEventListener('click', () => {
+//   createAlarm()
+// })
+
+// const rangeTimer = document.getElementById('rangeTimer')
+
+// rangeTimer.addEventListener("input", () => {
+//   // setTimeout(alert('test'), 10000)
+//   chrome.alarms.create(
+//     alarmInfo: AlarmCreateInfo
+//   )
+// });
+
+
 
 // // chrome.storage.sync.get("color", ({ color }) => {
 // //   button.style.backgroundColor = color;
